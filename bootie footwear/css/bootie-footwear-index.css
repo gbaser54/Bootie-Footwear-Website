@@ -88,9 +88,10 @@ svg
 .banner
 {
 background-image: url("../images/banner.jpg");
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
-min-height:800px;
+min-height:700px;
+margin-bottom:60px;
 }
 @media screen and (max-width: 1270px) and (min-width:1200px)
 {
